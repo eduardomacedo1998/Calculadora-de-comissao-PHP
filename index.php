@@ -48,7 +48,7 @@ if($_SERVER["REQUEST_METHOD"]== 'POST'){
 
     $result = ($porcentagemnum / 100) *  $valornum;
     
-    echo   $result;
+    echo  " comissão em R$:  " , $result;
 
     }
 
